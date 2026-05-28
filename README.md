@@ -57,7 +57,7 @@ package.json
 ### Step 2 — Set startup command
 
 ```bash
-node zentrix-connector.js
+node index.js
 ```
 
 ### Step 3 — Start the server
