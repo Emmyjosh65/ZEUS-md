@@ -1,0 +1,10 @@
+{
+  "name": "zentrix-connector",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "zentrix-connector.js",
+  "scripts": {
+    "start": "node zentrix-connector.js"
+  },
+  "dependencies": {}
+}
