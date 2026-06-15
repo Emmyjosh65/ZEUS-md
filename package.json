@@ -1,10 +1,10 @@
 {
-  "name": "zentrix-connector",
+  "name": "zeus-connector",
   "version": "1.0.0",
   "type": "module",
-  "main": "zentrix-connector.js",
+  "main": "zeus-connector.js",
   "scripts": {
-    "start": "node zentrix-connector.js"
+    "start": "node zeus-connector.js"
   },
   "dependencies": {}
 }
