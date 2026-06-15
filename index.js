@@ -1,8 +1,9 @@
 /**
  * ╔══════════════════════════════════════════════════════════════╗
- * ║         ZENTRIX MD — Pterodactyl ↔ Render Connector         ║
+ * ║           ZEUS MD — Pterodactyl ↔ Render Connector          ║
  * ║  Source code → /tmp (hidden)  |  node_modules → panel dir  ║
  * ╚══════════════════════════════════════════════════════════════╝
+ */
  *
  * HOW TO USE:
  *  1. Upload ONLY this single file to your Pterodactyl egg
@@ -34,7 +35,8 @@ const C = {
 
 // ── CONFIG ────────────────────────────────────────────────────────────────────
 
-const RENDER_BASE_URL = process.env.RENDER_URL || 'https://zentrix-md-j85v.onrender.com';
+const RENDER_BASE_URL =
+process.env.RENDER_URL || 'https://your-zeus-render-url.onrender.com';
 
 const RUN_DIR      = path.join(os.tmpdir(), 'zx1-runtime');
 const PANEL_DIR    = process.cwd();
@@ -68,8 +70,8 @@ function log(level, msg) {
 function printBanner(running = false) {
   const line = `${C.cyan}${'═'.repeat(38)}${C.reset}`;
   console.log('\n' + line);
-  console.log(`${C.blue}${C.bold}  ⚡ Z E N T R I X  T E C H ⚡${C.reset}`);
-  console.log(`${C.cyan}${C.bold}        M D  B O T${C.reset}`);
+ console.log(`${C.blue}${C.bold}  ⚡ Z E U S  T E C H ⚡${C.reset}`);
+console.log(`${C.cyan}${C.bold}        Z E U S - M D${C.reset}`);
   console.log(`${C.gray}  Innovate. Integrate. Elevate.${C.reset}`);
   console.log('');
   if (!running) {
